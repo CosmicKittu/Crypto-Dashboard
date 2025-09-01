@@ -1,3 +1,7 @@
 @import 'tailwindcss';
 
 
+body{
+  @apply  m-0 p-0 box-border font-sans bg-[#0e1117] text-[#f0f0f0] leading-relaxed p-8
+}
+
