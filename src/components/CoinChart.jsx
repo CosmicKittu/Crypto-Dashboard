@@ -65,23 +65,23 @@ const CoinChart = ({coinId}) => {
       options={{
         responsive: true,
         plugins: {
-            legend: { display: false }, // Hide the legend
-            tooltip: { mode: 'index', intersect: false }, // Tooltip appears when hovering near a point
+            legend: { display: false }, 
+            tooltip: { mode: 'index', intersect: false }, 
         },
         scales: {
         x: {
-        type: 'time', // Uses date-based axis
+        type: 'time', 
         time: {
-        unit: 'day', // Each tick on the axis represents a day
+        unit: 'day', 
         },
         ticks: {
-            autoSkip: true, // Skip ticks if there are too many
-            maxTicksLimit: 7, // Show at most 7 ticks
+            autoSkip: true, 
+            maxTicksLimit: 7, 
         },
         },
                 y: {
         ticks: {
-            callback: (value) => `$${value.toLocaleString()}`, // Format numbers like $25,000
+            callback: (value) => `$${value.toLocaleString()}`,
         },
         }
                 },
