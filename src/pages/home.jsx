@@ -40,7 +40,7 @@ const HomePage = ({
   });
     return ( 
         <>
-    <h1 className="mb-8 text-3xl font-bold">Crypto Dashboard 🚀</h1>
+    
       {loading && <p>Loadding....</p>}
       {error && <p>there was an error</p>}
 

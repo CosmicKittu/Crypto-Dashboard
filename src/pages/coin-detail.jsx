@@ -45,11 +45,13 @@ const CoinDetail = () => {
 
     {!loading && !error && coin && (
       <>
+      <div className="flex justify-center items-center ">
         <img
           src={coin.image.large}
           alt={coin.name}
-          className='coin-details-image'
+          className='coin-details-image '
         />
+        </div>
         <p className="text-amber-50">{coin.description.en.split('. ')[0] + '.'}</p>
 
         <div className='coin-details-info'>

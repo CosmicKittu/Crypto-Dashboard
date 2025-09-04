@@ -43,7 +43,11 @@ const App = () => {
 
   return ( 
     <>
-    <Header />
+    <div className="flex flex-row justify-between">
+      <span><h1 className="mb-8 text-3xl font-bold">Crypto Dashboard 🚀</h1></span>
+      <Header />
+    </div>
+    
     <Routes> 
       <Route path='/' element={<HomePage 
       coins={coins}
