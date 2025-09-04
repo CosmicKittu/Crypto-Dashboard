@@ -44,7 +44,7 @@ const App = () => {
   return ( 
     <>
     <div className="flex flex-row justify-between">
-      <span><h1 className="mb-8 text-xl font:semibold sm:font-bold sm:text-3xl">Crypto Dashboard 🚀</h1></span>
+      <span><h1 className="mb-8 text-2xl font:bold sm:text-3xl">Crypto Dashboard 🚀</h1></span>
       <Header />
     </div>
     
